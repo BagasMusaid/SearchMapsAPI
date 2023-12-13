@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize other theme attributes if needed -->
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Removes the underline/border -->
+        <item name="android:background">@null</item>
+        <!-- Customize other attributes as needed -->
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <!-- Add other style attributes here -->
+    </style>
+</resources>
